@@ -41,8 +41,8 @@ get '/' do
 	#load all posts
 	#display them
 	@title = "All posts"
-	@headline = "My life in blog"
-	@paragraph = "Follow me plz. Follow 4 Follow."
+	@headline = "Big Giant Robots!"
+	@paragraph = "If you don't like giant robots, we cant be friends. Unfollow!"
 	@posts = Post.all
 
 
